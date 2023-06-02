@@ -20,13 +20,13 @@
         font-weight: 900;
         font-size: 3rem;
         text-transform: uppercase;
-
         margin-bottom: var(--gutter);
         margin-top: var(--gutter);
     }
     .head {
         text-align: center;
         width: 100%;
+        padding: 1rem;
     }
 
     .subhead {

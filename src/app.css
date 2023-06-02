@@ -13,7 +13,7 @@
 }
 
 :root {
-    --bodytext: 1rem; 
+    --bodytext: 1vw; 
     --baseline: 1.5rem;
     --margin: 4rem; 
     --gutter: 2rem;
@@ -58,12 +58,12 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h1{
-    font-size: 7vw;
+    font-size: 10vw;
     margin-bottom: var(--baseline);
 }
 
 h2{
-    font-size: 4.6vw;
+    font-size: 8vw;
     margin-bottom: var(--baseline);
 }
 
