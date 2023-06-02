@@ -18,15 +18,15 @@
     header {
         font-family: "Play Fair", serif;
         font-weight: 900;
-        font-size: 80px;
+        font-size: 3rem;
         text-transform: uppercase;
-        width: 100%;
+
         margin-bottom: var(--gutter);
         margin-top: var(--gutter);
     }
     .head {
         text-align: center;
-        position: relative;
+        width: 100%;
     }
 
     .subhead {
