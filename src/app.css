@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Open Sans';
-    src: url('fonts/OpenSans.ttf');
+    src: url('/fonts/OpenSans.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Play Fair';
-    src: url('fonts/PlayFair.ttf');
+    src: url('/fonts/PlayFair.ttf');
     font-weight: normal;
     font-style: normal;
 }
