@@ -20,7 +20,7 @@
         font-weight: 900;
         font-size: 80px;
         text-transform: uppercase;
-        display: inline-block;
+        width: 100%;
         margin-bottom: var(--gutter);
         margin-top: var(--gutter);
     }
@@ -34,15 +34,5 @@
         border-bottom: 2px solid #2f2f2f;
         border-top: 2px solid #2f2f2f;
         padding: 12px 0 12px 0;
-    }
-    .weatherforcastbox {
-        position: relative;
-        width: 12%;
-        left: 10px;
-        border: 3px double #2f2f2f;
-        padding: 10px 15px 10px 15px;
-        line-height: 20px;
-        display: inline-block;
-        margin: 0 50px 20px -360px;
     }
 </style>
