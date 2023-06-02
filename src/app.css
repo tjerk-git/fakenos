@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Play Fair';
+    src: url('fonts/PlayFair.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --bodytext: 1rem; 
+    --baseline: 1.5rem;
+    --margin: 4rem; 
+    --gutter: 2rem;
+    --orange: #FF8758;
+    --green: #8FAD47;
+    --blue: #6E9BCF;
+    --off-black: #413a37;
+}
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+main{
+    max-width:1136px;
+    width: calc(100% - var(--margin));
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:2rem auto 0 auto;
+}
+
+body{
+    color: var(--off-black);
+}
+
+p{
+    font-size: var(--bodytext);
+    line-height: var(--baseline);
+    margin-bottom: var(--baseline);
+    font-family: Open Sans;
+}
+
+p:last-child{
+    margin-bottom:0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Play Fair;
+}
+
+h1{
+    font-size: 7vw;
+    margin-bottom: var(--baseline);
+}
+
+h2{
+    font-size: 4.6vw;
+    margin-bottom: var(--baseline);
+}
+
+
+article{
+    margin-bottom: var(--baseline);
+}
+
+.divider{
+    border-bottom:1px solid var(--orange);
+}
+
+img{ 
+  max-width: 100%;
+  height: auto;
+}
